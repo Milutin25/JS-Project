@@ -11,10 +11,17 @@ const birthdate = "1984-04-07";
 Total days lived: ${Days}
 "Total days lived: 12345"*/
 
-let today = new Date ();
-let birthDate =new Date(1982,8,16);
+const birthdate = "1981-04-07";
 
-let daysLived = Math.ceil((today - birthDate)/(1000*60*60*24));
+function calculateDaysLived (birth) {
 
-console.log(daysLived);
+    let today = new Date ();
+    let birthDate = new Date(birthdate);
 
+    let daysLived = Math.ceil((today - birthDate)/(1000*60*60*24));
+
+    return daysLived; 
+
+}
+
+console.log(calculateDaysLived(birthdate));

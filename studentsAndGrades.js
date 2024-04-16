@@ -16,7 +16,7 @@ let students = [];
 
 for ( key in grade){
     for ( i in grade[key]){
-        students.push({name:grade[key][i], grade: key})
+        students.push({grade: key, name:grade[key][i], })
     }
 }
-console.log(students[0])
+console.log(students)

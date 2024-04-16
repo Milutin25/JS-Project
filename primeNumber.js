@@ -1,4 +1,4 @@
-n = 6;
+n = 7;
 function isPrime(n) {
     if (n < 2) {
       return false;

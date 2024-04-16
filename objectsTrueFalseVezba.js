@@ -60,7 +60,7 @@ for ( key in userName){
     if (typeof userName[key] !== "object"){
         console.log(key, " : ", false);
     } else {
-        console.log (key, " : ", false);
+        console.log (key, " : ", true);
 
         for ( i in userName[key])
             if (typeof userName[key][i] !== "object"){
