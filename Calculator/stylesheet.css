@@ -1,0 +1,41 @@
+body {
+    font-family:Arial,sans-serif;
+}
+h1{
+    color:#070f4e; 
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color:  #f5ebeb;
+    border-radius: 10px;
+    border: 3px solid #77628c;
+}
+input,button {
+    margin: 10px;
+    padding: 5px;
+    border-radius:5px; 
+}
+#outputArea {
+    margin: 40px 30px 30px 30px;
+    border: 1px solid gray;
+    border-radius:3px;
+    padding: 30px;
+    background-color: #f2f9f1;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+}
+.invalid-input {
+    background-color:hsl(32, 100%, 50%);
+    border: 1px solid rgb(0, 0, 0);
+}
